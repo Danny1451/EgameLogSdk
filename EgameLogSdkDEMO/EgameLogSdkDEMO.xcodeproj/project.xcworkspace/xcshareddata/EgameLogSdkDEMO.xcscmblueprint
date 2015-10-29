@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "759AE0D4B3EA96919D82B28392E57DBFF530E90C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "759AE0D4B3EA96919D82B28392E57DBFF530E90C" : 0,
+    "6E84240FA9C405C613E4376270626C872725D390" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E03EBDE7-1C60-47F4-BFF5-E686EBCCD24E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "759AE0D4B3EA96919D82B28392E57DBFF530E90C" : "EgameLogSdk\/",
+    "6E84240FA9C405C613E4376270626C872725D390" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EgameLogSdkDEMO",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EgameLogSdkDEMO\/EgameLogSdkDEMO.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danny1451\/LDAsynImageView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E84240FA9C405C613E4376270626C872725D390"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Danny1451\/EgameLogSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "759AE0D4B3EA96919D82B28392E57DBFF530E90C"
+    }
+  ]
+}

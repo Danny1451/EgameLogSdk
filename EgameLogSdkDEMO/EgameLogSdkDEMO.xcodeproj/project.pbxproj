@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1091C8B1BE1D0E40086228E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091C8A1BE1D0E40086228E /* main.m */; };
+		C1091C8E1BE1D0E40086228E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091C8D1BE1D0E40086228E /* AppDelegate.m */; };
+		C1091C911BE1D0E40086228E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091C901BE1D0E40086228E /* ViewController.m */; };
+		C1091C941BE1D0E40086228E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1091C921BE1D0E40086228E /* Main.storyboard */; };
+		C1091C961BE1D0E40086228E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1091C951BE1D0E40086228E /* Assets.xcassets */; };
+		C1091C991BE1D0E40086228E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1091C971BE1D0E40086228E /* LaunchScreen.storyboard */; };
+		C1091CA41BE1D0E40086228E /* EgameLogSdkDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091CA31BE1D0E40086228E /* EgameLogSdkDEMOTests.m */; };
+		C1091CAF1BE1D0E40086228E /* EgameLogSdkDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1091CAE1BE1D0E40086228E /* EgameLogSdkDEMOUITests.m */; };
+		C1091CC41BE1D2FB0086228E /* libEgameLogSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CC31BE1D2FB0086228E /* libEgameLogSdk.a */; };
+		C1091CC61BE1EF0D0086228E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CC51BE1EF0D0086228E /* MobileCoreServices.framework */; };
+		C1091CC81BE1EF140086228E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CC71BE1EF140086228E /* Security.framework */; };
+		C1091CCA1BE1EF1C0086228E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CC91BE1EF1C0086228E /* ImageIO.framework */; };
+		C1091CCC1BE1EF270086228E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CCB1BE1EF270086228E /* SystemConfiguration.framework */; };
+		C1091CCE1BE1EF2E0086228E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CCD1BE1EF2E0086228E /* Foundation.framework */; };
+		C1091CD01BE1EF350086228E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CCF1BE1EF350086228E /* CFNetwork.framework */; };
+		C1091CD21BE1EF3A0086228E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1091CD11BE1EF3A0086228E /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1091CA01BE1D0E40086228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1091C7E1BE1D0E40086228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1091C851BE1D0E40086228E;
+			remoteInfo = EgameLogSdkDEMO;
+		};
+		C1091CAB1BE1D0E40086228E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1091C7E1BE1D0E40086228E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1091C851BE1D0E40086228E;
+			remoteInfo = EgameLogSdkDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1091C861BE1D0E40086228E /* EgameLogSdkDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgameLogSdkDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091C8A1BE1D0E40086228E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1091C8C1BE1D0E40086228E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1091C8D1BE1D0E40086228E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1091C8F1BE1D0E40086228E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1091C901BE1D0E40086228E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1091C931BE1D0E40086228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1091C951BE1D0E40086228E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1091C981BE1D0E40086228E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1091C9A1BE1D0E40086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1091C9F1BE1D0E40086228E /* EgameLogSdkDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgameLogSdkDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091CA31BE1D0E40086228E /* EgameLogSdkDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgameLogSdkDEMOTests.m; sourceTree = "<group>"; };
+		C1091CA51BE1D0E40086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1091CAA1BE1D0E40086228E /* EgameLogSdkDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgameLogSdkDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1091CAE1BE1D0E40086228E /* EgameLogSdkDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgameLogSdkDEMOUITests.m; sourceTree = "<group>"; };
+		C1091CB01BE1D0E40086228E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1091CC21BE1D2FB0086228E /* EgameAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EgameAgent.h; sourceTree = "<group>"; };
+		C1091CC31BE1D2FB0086228E /* libEgameLogSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEgameLogSdk.a; sourceTree = "<group>"; };
+		C1091CC51BE1EF0D0086228E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C1091CC71BE1EF140086228E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C1091CC91BE1EF1C0086228E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C1091CCB1BE1EF270086228E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C1091CCD1BE1EF2E0086228E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1091CCF1BE1EF350086228E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C1091CD11BE1EF3A0086228E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1091C831BE1D0E40086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091CD21BE1EF3A0086228E /* AdSupport.framework in Frameworks */,
+				C1091CD01BE1EF350086228E /* CFNetwork.framework in Frameworks */,
+				C1091CCE1BE1EF2E0086228E /* Foundation.framework in Frameworks */,
+				C1091CCC1BE1EF270086228E /* SystemConfiguration.framework in Frameworks */,
+				C1091CCA1BE1EF1C0086228E /* ImageIO.framework in Frameworks */,
+				C1091CC81BE1EF140086228E /* Security.framework in Frameworks */,
+				C1091CC61BE1EF0D0086228E /* MobileCoreServices.framework in Frameworks */,
+				C1091CC41BE1D2FB0086228E /* libEgameLogSdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091C9C1BE1D0E40086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091CA71BE1D0E40086228E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1091C7D1BE1D0E40086228E = {
+			isa = PBXGroup;
+			children = (
+				C1091CD11BE1EF3A0086228E /* AdSupport.framework */,
+				C1091CCF1BE1EF350086228E /* CFNetwork.framework */,
+				C1091CCD1BE1EF2E0086228E /* Foundation.framework */,
+				C1091CCB1BE1EF270086228E /* SystemConfiguration.framework */,
+				C1091CC91BE1EF1C0086228E /* ImageIO.framework */,
+				C1091CC71BE1EF140086228E /* Security.framework */,
+				C1091CC51BE1EF0D0086228E /* MobileCoreServices.framework */,
+				C1091CC11BE1D2FB0086228E /* EgameLogSdk */,
+				C1091C881BE1D0E40086228E /* EgameLogSdkDEMO */,
+				C1091CA21BE1D0E40086228E /* EgameLogSdkDEMOTests */,
+				C1091CAD1BE1D0E40086228E /* EgameLogSdkDEMOUITests */,
+				C1091C871BE1D0E40086228E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1091C871BE1D0E40086228E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1091C861BE1D0E40086228E /* EgameLogSdkDEMO.app */,
+				C1091C9F1BE1D0E40086228E /* EgameLogSdkDEMOTests.xctest */,
+				C1091CAA1BE1D0E40086228E /* EgameLogSdkDEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1091C881BE1D0E40086228E /* EgameLogSdkDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				C1091C8C1BE1D0E40086228E /* AppDelegate.h */,
+				C1091C8D1BE1D0E40086228E /* AppDelegate.m */,
+				C1091C8F1BE1D0E40086228E /* ViewController.h */,
+				C1091C901BE1D0E40086228E /* ViewController.m */,
+				C1091C921BE1D0E40086228E /* Main.storyboard */,
+				C1091C951BE1D0E40086228E /* Assets.xcassets */,
+				C1091C971BE1D0E40086228E /* LaunchScreen.storyboard */,
+				C1091C9A1BE1D0E40086228E /* Info.plist */,
+				C1091C891BE1D0E40086228E /* Supporting Files */,
+			);
+			path = EgameLogSdkDEMO;
+			sourceTree = "<group>";
+		};
+		C1091C891BE1D0E40086228E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1091C8A1BE1D0E40086228E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1091CA21BE1D0E40086228E /* EgameLogSdkDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1091CA31BE1D0E40086228E /* EgameLogSdkDEMOTests.m */,
+				C1091CA51BE1D0E40086228E /* Info.plist */,
+			);
+			path = EgameLogSdkDEMOTests;
+			sourceTree = "<group>";
+		};
+		C1091CAD1BE1D0E40086228E /* EgameLogSdkDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1091CAE1BE1D0E40086228E /* EgameLogSdkDEMOUITests.m */,
+				C1091CB01BE1D0E40086228E /* Info.plist */,
+			);
+			path = EgameLogSdkDEMOUITests;
+			sourceTree = "<group>";
+		};
+		C1091CC11BE1D2FB0086228E /* EgameLogSdk */ = {
+			isa = PBXGroup;
+			children = (
+				C1091CC21BE1D2FB0086228E /* EgameAgent.h */,
+				C1091CC31BE1D2FB0086228E /* libEgameLogSdk.a */,
+			);
+			name = EgameLogSdk;
+			path = ../EgameLogSdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1091C851BE1D0E40086228E /* EgameLogSdkDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091CB31BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMO" */;
+			buildPhases = (
+				C1091C821BE1D0E40086228E /* Sources */,
+				C1091C831BE1D0E40086228E /* Frameworks */,
+				C1091C841BE1D0E40086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EgameLogSdkDEMO;
+			productName = EgameLogSdkDEMO;
+			productReference = C1091C861BE1D0E40086228E /* EgameLogSdkDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1091C9E1BE1D0E40086228E /* EgameLogSdkDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091CB61BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMOTests" */;
+			buildPhases = (
+				C1091C9B1BE1D0E40086228E /* Sources */,
+				C1091C9C1BE1D0E40086228E /* Frameworks */,
+				C1091C9D1BE1D0E40086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1091CA11BE1D0E40086228E /* PBXTargetDependency */,
+			);
+			name = EgameLogSdkDEMOTests;
+			productName = EgameLogSdkDEMOTests;
+			productReference = C1091C9F1BE1D0E40086228E /* EgameLogSdkDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1091CA91BE1D0E40086228E /* EgameLogSdkDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1091CB91BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMOUITests" */;
+			buildPhases = (
+				C1091CA61BE1D0E40086228E /* Sources */,
+				C1091CA71BE1D0E40086228E /* Frameworks */,
+				C1091CA81BE1D0E40086228E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1091CAC1BE1D0E40086228E /* PBXTargetDependency */,
+			);
+			name = EgameLogSdkDEMOUITests;
+			productName = EgameLogSdkDEMOUITests;
+			productReference = C1091CAA1BE1D0E40086228E /* EgameLogSdkDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1091C7E1BE1D0E40086228E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = egame;
+				TargetAttributes = {
+					C1091C851BE1D0E40086228E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C1091C9E1BE1D0E40086228E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C1091C851BE1D0E40086228E;
+					};
+					C1091CA91BE1D0E40086228E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C1091C851BE1D0E40086228E;
+					};
+				};
+			};
+			buildConfigurationList = C1091C811BE1D0E40086228E /* Build configuration list for PBXProject "EgameLogSdkDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1091C7D1BE1D0E40086228E;
+			productRefGroup = C1091C871BE1D0E40086228E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1091C851BE1D0E40086228E /* EgameLogSdkDEMO */,
+				C1091C9E1BE1D0E40086228E /* EgameLogSdkDEMOTests */,
+				C1091CA91BE1D0E40086228E /* EgameLogSdkDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1091C841BE1D0E40086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091C991BE1D0E40086228E /* LaunchScreen.storyboard in Resources */,
+				C1091C961BE1D0E40086228E /* Assets.xcassets in Resources */,
+				C1091C941BE1D0E40086228E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091C9D1BE1D0E40086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091CA81BE1D0E40086228E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1091C821BE1D0E40086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091C911BE1D0E40086228E /* ViewController.m in Sources */,
+				C1091C8E1BE1D0E40086228E /* AppDelegate.m in Sources */,
+				C1091C8B1BE1D0E40086228E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091C9B1BE1D0E40086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091CA41BE1D0E40086228E /* EgameLogSdkDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1091CA61BE1D0E40086228E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1091CAF1BE1D0E40086228E /* EgameLogSdkDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1091CA11BE1D0E40086228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1091C851BE1D0E40086228E /* EgameLogSdkDEMO */;
+			targetProxy = C1091CA01BE1D0E40086228E /* PBXContainerItemProxy */;
+		};
+		C1091CAC1BE1D0E40086228E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1091C851BE1D0E40086228E /* EgameLogSdkDEMO */;
+			targetProxy = C1091CAB1BE1D0E40086228E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1091C921BE1D0E40086228E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1091C931BE1D0E40086228E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1091C971BE1D0E40086228E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1091C981BE1D0E40086228E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1091CB11BE1D0E40086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1091CB21BE1D0E40086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1091CB41BE1D0E40086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EgameLogSdkDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/liudan/Documents/git/EgameLogSdk/EgameLogSdk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1091CB51BE1D0E40086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EgameLogSdkDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/liudan/Documents/git/EgameLogSdk/EgameLogSdk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1091CB71BE1D0E40086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EgameLogSdkDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameLogSdkDEMO.app/EgameLogSdkDEMO";
+			};
+			name = Debug;
+		};
+		C1091CB81BE1D0E40086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EgameLogSdkDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgameLogSdkDEMO.app/EgameLogSdkDEMO";
+			};
+			name = Release;
+		};
+		C1091CBA1BE1D0E40086228E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EgameLogSdkDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EgameLogSdkDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1091CBB1BE1D0E40086228E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EgameLogSdkDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egame.EgameLogSdkDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EgameLogSdkDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1091C811BE1D0E40086228E /* Build configuration list for PBXProject "EgameLogSdkDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091CB11BE1D0E40086228E /* Debug */,
+				C1091CB21BE1D0E40086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1091CB31BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091CB41BE1D0E40086228E /* Debug */,
+				C1091CB51BE1D0E40086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1091CB61BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091CB71BE1D0E40086228E /* Debug */,
+				C1091CB81BE1D0E40086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1091CB91BE1D0E40086228E /* Build configuration list for PBXNativeTarget "EgameLogSdkDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1091CBA1BE1D0E40086228E /* Debug */,
+				C1091CBB1BE1D0E40086228E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1091C7E1BE1D0E40086228E /* Project object */;
+}
